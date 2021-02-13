@@ -34,4 +34,4 @@ jobs:
         app-name: 'docusaurusdocs'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_138fafba25a540978ece4ef8b755e461 }}
-        package: .
+        package: ./website/build/test-site
